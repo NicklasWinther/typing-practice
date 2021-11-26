@@ -1,0 +1,21 @@
+.startButton{
+	width:50%;
+	height:50%;
+	font-size: 5rem;
+	border-radius: 50%;
+	color:#eee;
+	box-shadow: 0 0 50px 20px #222;
+	border:none;
+	transition: .3s;
+	outline: none;
+	background:#444;
+	padding:20px;
+	text-shadow: 0 0 20px #222;
+	cursor: pointer;
+}
+.startButton:hover,.startButton:focus{
+	background:#3f3f3f;
+	color:#eee;
+	box-shadow: 0 0 35px 10px #222;
+	border:none;
+}

@@ -1,0 +1,51 @@
+.score{
+    position: absolute;
+    top: 80px;
+}
+
+.modalOverlay{
+    background: #eeeeee30;
+    position: fixed;
+    inset: 0px;
+}
+.modal{
+    background:#333;
+    width:50%;
+    height: 50%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:20px;
+    color:#eee;
+    outline: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.modal form h2{
+    margin-top:auto;
+}
+
+.modal form input,.modal form button{
+    outline: none;
+    height: 5rem;
+    font-size: 2rem;
+    padding:20px;
+    background: #eeeeee30;
+    color:#eee;
+    border-radius: 5px;
+}
+
+.modal form button{
+    padding: 10px 20px;
+    margin-top: auto;
+}
